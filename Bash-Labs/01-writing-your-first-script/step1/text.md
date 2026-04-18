@@ -21,6 +21,7 @@ Then, you're ready to write your script.
       our program in another (compiled) language, the `.sh` file extension would
       have to be changed everywhere it is used.  
 
+<br />
 
 2. Give the file execute permissions.
    ```bash
