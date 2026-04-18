@@ -10,26 +10,25 @@ Then, you're ready to write your script.
 <details>
 <summary>Solution</summary>
 
-Create a file named `hello`.  
+1. Create a file named `hello`.  
+   ```bash
+   touch hello
+   ```{{exec}}
 
-```bash
-touch hello
-```{{exec}}
+    - Some people prefer to use a `.sh` extension for the shell scripts.
+      It doesn't matter if you do.  
+    - An argument against a `.sh` file extension: if we were to rewrite
+      our program in another (compiled) language, the `.sh` file extension would
+      have to be changed everywhere it is used.  
 
-- Some people prefer to use a `.sh` extension for the shell scripts.
-  It doesn't matter if you do.  
-
-Give the file execute permissions.
-
-```bash
-chmod 755 hello
-```{{exec}}
-
-Alternatively, we can use the symbolic mode rather than octal permissions:
-
-```bash
-chmod u+x hello
-```{{exec}}
+2. Give the file execute permissions.
+   ```bash
+   chmod 755 hello
+   ```{{exec}}
+    - Alternatively, we can use the symbolic notation rather than octal notation:
+      ```bash
+      chmod u+x hello
+      ```{{exec}}
 
 </details>
 
