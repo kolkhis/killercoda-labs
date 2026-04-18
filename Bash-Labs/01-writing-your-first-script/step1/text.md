@@ -25,7 +25,7 @@ Give the file execute permissions.
 chmod 755 hello
 ```{{exec}}
 
-Or, use the symbolic mode:
+Alternatively, we can use the symbolic mode rather than octal permissions:
 
 ```bash
 chmod u+x hello
