@@ -10,15 +10,16 @@ Then, you're ready to write your script.
 <details>
 <summary>Solution</summary>
 
-1. Create a file named `hello`.  
+Create a file named `hello`.  
+
 ```bash
 touch hello
 ```exec
 
-    - Some people prefer to use a `.sh` extension for the shell scripts.
-      It doesn't matter if you do.  
+- Some people prefer to use a `.sh` extension for the shell scripts.
+  It doesn't matter if you do.  
 
-2. Give the file execute permissions.
+Give the file execute permissions.
 
 ```bash
 chmod 755 hello
