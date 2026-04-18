@@ -14,7 +14,7 @@ Create a file named `hello`.
 
 ```bash
 touch hello
-```exec
+```{{exec}}
 
 - Some people prefer to use a `.sh` extension for the shell scripts.
   It doesn't matter if you do.  
@@ -23,13 +23,13 @@ Give the file execute permissions.
 
 ```bash
 chmod 755 hello
-```exec
+```{{exec}}
 
 Or, use the symbolic mode:
 
 ```bash
 chmod u+x hello
-```exec
+```{{exec}}
 
 </details>
 
