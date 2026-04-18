@@ -11,7 +11,7 @@ terminal.
 1. Open the `hello` script file in a text editor (e.g., `vi`/`vim`, `nano`).
    ```bash
    vi hello
-   ```
+   ```exec
     - Press `i` to enter insert mode in `vi`/`vim`.
 
 2. The first line of any script should be the "shebang" line, which tells the
