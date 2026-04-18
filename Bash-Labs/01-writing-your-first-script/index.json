@@ -15,6 +15,11 @@
                 "title": "Writing the Script Content",
                 "text": "step2/text.md",
                 "verify": "step2/verify"
+            },
+            {
+                "title": "Running the Script",
+                "text": "step3/text.md",
+                "verify": "step3/verify"
             }
         ],
         "finish": {
