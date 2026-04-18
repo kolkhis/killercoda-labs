@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ -x hello ]]; then
+if [[ -x hello || -x hello.sh ]]; then
     exit 0
 else
     exit 1
