@@ -3,24 +3,18 @@
     "description": "In this lab, you will learn how to write a simple bash script and execute it in a Linux environment.",
     "details": {
         "intro": {
-            "text": "intro.md",
-            "background": "setup.sh"
+            "text": "intro.md"
         },
         "steps": [
             {
                 "title": "Creating the Script File",
                 "text": "step1/text.md",
-                "verify": "step1/verify.sh"
+                "verify": "step1/verify"
             },
             {
-                "title": "Linux Commands to dig into the system",
+                "title": "Writing the Script Content",
                 "text": "step2/text.md",
-                "verify": "step2/verify.sh"
-            },
-            {
-                "title": "Linux Commands to see networking traffic and load",
-                "text": "step3/text.md",
-                "verify": "step3/verify.sh"
+                "verify": "step2/verify"
             }
         ],
         "finish": {
